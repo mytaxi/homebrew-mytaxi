@@ -19,6 +19,7 @@ class K8slogin < Formula
       system "dep", "ensure"
       system "go", "build", "-o", "k8slogin"
       prefix.install_metafiles
+      bin.install "k8slogin"
     end
   end
 
