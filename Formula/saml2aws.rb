@@ -1,9 +1,10 @@
 require 'formula'
 
 class Saml2aws < Formula
+  desc 'CLI tool which enables you to login and retrieve AWS temporary credentials using a SAML IDP'
   homepage 'https://github.com/versent/saml2aws'
   url 'https://github.com/Versent/saml2aws/releases/download/v2.0.0/saml2aws_2.0.0_darwin_amd64.tar.gz'
-  version '1.8.4'
+  version '2.0.0'
   sha256 '2e1d06ac475f975d86ddc4b3559996d8a0c97308616aa4f85f42bb23c83960bc'
 
   depends_on :arch => :x86_64
